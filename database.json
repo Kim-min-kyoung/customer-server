@@ -1,0 +1,7 @@
+{
+    "host": "customer-manage.cw9rttwpji5w.us-east-1.rds.amazonaws.com",
+    "user": "admin",
+    "password": "dbsgml12!",
+    "port": "3306",
+    "database": "customerdb"
+}
