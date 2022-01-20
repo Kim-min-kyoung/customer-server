@@ -20,7 +20,7 @@ app.use(express.json()) // json형식의 데이터를 처리할 수 있도록 �
 app.use(cors()) // 브라우저의 다양한 사용을 위해 설정
 connection.connect();
 // app 서버 셋팅, 게시글 전체조회
-app.get('/customers', async(req, res) => {
+app.get('/customer', async(req, res) => {
     connection.query(
         "SELECT * FROM customers",
         (err, rows, fields) => {
